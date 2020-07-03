@@ -45,8 +45,9 @@ header{
 }
 
 .logo-name{
-	color: #ff7977;
+	color: #f15e63;
 	font-size: 25px;
+	font-weight: 700;
 	flex-grow: 1;
 }
 
@@ -110,60 +111,52 @@ header{
 }
 
 .box-white{
+	width: 1200px;
+	height: 60px;
 	background-color: white;
-	height: 70px;
-	width: 90%;
-
-	border: 1px solid gray;
-	border-radius: 10px;
-
 	display: flex;
+	justify-content:space-around;
+	align-items: center;
 }
 
-.box-white .text-1{
+.box-white label{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	
-	text-transform: uppercase;
-	padding: 10px;
-	border-right: 1px solid gray;
+	padding: 13px;
+	border-right: 1px solid #DDD;
+
 }
 
-.box-white .text-1:first-child{
-	justify-content: flex-start;
+.box-white .location{
+	flex-grow: 1;
 }
 
-.btn{
-	width: 100px;
-	height: 50px;
-	background-color: pink;
-	padding: 10px;
+.box-white label input{
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}
 
+.box-white .guest{
+	width: 260px;
 	display: flex;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-around;
 	align-items: center;
-
 }
 
-.box-white .text-1 span{
-	color: gray;
-	text-transform: capitalize;
+.box-white .guest .search-btn{
+	background-image: linear-gradient(90deg, #FF385C 0%, #E61E4D 27.5%, #E31C5F 40%, #D70466 57.5%, #BD1E59 75%, #BD1E59 100% );
 
+	width: 90px;
+	height: 50px;
+
+	font-weight: 700;
+	text-align: center;
+
+	border: none;
+	border-radius: 5px;
 }
-
-.box-white .larger-text{
-	flex-grow: 1;	
-}
-
-.box-white .text-1:hover{
-
-}
-
-
-
-
 
 .content-1{
 	width: 40%;
